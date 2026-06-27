@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WebDOCs Assessoria</title>
+    
+
+    <!-- SCRIPT -->
+        <script>
+            window.BASE_URL = location.hostname.includes('github.io')
+                ? '/BS2/'
+                : '/';
+
+            document.write(`
+                <!-- HEAD, FAVICON E ÍCONES -->
+                    <script type="module" src="${window.BASE_URL}scripts/sistema/head.js"><\/script>
+                
+                <!-- SISTEMA -->
+                    <link rel="stylesheet" href="${window.BASE_URL}estilos/sistema.css">
+            `);
+        </script>
+</head>
+
+<body style="grid-template-columns: auto;">
+    <div class="conteudo">
+
+        <header id="pagina">
+            <div class="cabecalho-div"></div>
+
+            <span id="sistema-assessoria" class="assessoria-nome"></span>
+        </header>
+
+        <div class="sistema-pagina">
+            <h1>Documentos</h1>
+            <div class="formularios">
+                <div class="area-boxes" style="grid-template-columns: 340px;">
+                    <div class="base-box">
+
+                        <div class="base-boxcampos grupo">
+                            
+                            <a class="input-home top" href="./BS2-Comprovante/">
+                                Comprovante
+                            </a>
+
+                            <a class="input-home center" href="./BS2-Contrato/">
+                                Contrato
+                            </a>
+
+                            <a class="input-home center" href="./BS2-Declaracao/">
+                                Declaração
+                            </a>
+
+                            <a class="input-home center" href="./BS2-Garantia/">
+                                Garantia
+                            </a>
+
+                            <a class="input-home center" href="./BS2-Ordem/">
+                                Ordem
+                            </a>
+
+                            <a class="input-home center" href="./BS2-Tela/">
+                                Tela de Aprovação
+                            </a>
+
+                            <a class="input-home center" href="./BS2-TelaComprovante/">
+                                Tela Comprovante
+                            </a>
+
+                            <a class="input-home bot" href="./BS2-Termo/">
+                                Termo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
